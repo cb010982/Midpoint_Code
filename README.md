@@ -11,8 +11,8 @@
 ###### To run app1.py:
 ###### Type: python -m streamlit run app1.py
 
-###### diabetespredictionmodeltraining.py is the collab file for training the diabetes prediction model
-###### dietrecommendationmodeltraining.py is the collab file for training the diet recommendation model
+###### 'diabetespredictionmodeltraining.py' is the collab file for training the diabetes prediction model
+###### 'dietrecommendationmodeltraining.py' is the collab file for training the diet recommendation model
 
 
 
