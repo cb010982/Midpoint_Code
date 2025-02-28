@@ -29,13 +29,13 @@ if st.button("Predict Diabetes"):
     if glucose >= 97:
         st.error(f"**High Risk Detected:** Glucose level is {glucose} mg/dL. Potential diabetes risk, get diet recommendation.")
         if st.button("Proceed to Sign In to Get Diet Recommendations"):
-            st.success("Redirecting to sign-in page...")  # You can add actual redirection logic here
+            st.success("Redirecting to sign-in page...")  
     else:    
         prediction = rf_model.predict(user_input)  # Use the model to predict
         pred_prob = rf_model.predict_proba(user_input)[:, 1]  # Probability of having diabetes
         if prediction[0] == 1:
             st.error(f"The model predicts **diabetes** with a probability of **{pred_prob[0]:.2f}**.")
             if st.button("Proceed to Sign In to Get Diet Recommendations"):
-                st.success("Redirecting to sign-in page...")  # Add actual redirection logic
+                st.success("Redirecting to sign-in page...")  
         else:
             st.success(f"The model predicts **no diabetes** with a probability of **{1 - pred_prob[0]:.2f}**.")
