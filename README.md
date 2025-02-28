@@ -1,4 +1,4 @@
-﻿# Diabetes Prediction and Diet Recommendation System
+﻿## Diabetes Prediction and Diet Recommendation System
 
  
 ###### Download this csv file and then upload it to the folder to run the code - https://drive.google.com/file/d/1eFqnD5YgZLoJMK3Rb5_tFU96m-NVTZ7B/view?usp=drive_link
