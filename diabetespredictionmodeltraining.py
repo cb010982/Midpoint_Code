@@ -524,7 +524,7 @@ for row in results:
 
 display(Markdown(table_md))
 
-"""## WITH SMOTEENN
+"""## WITH SMOTE
 
 *Doing test and train split on smoteenn data*
 """
@@ -555,7 +555,7 @@ display(Markdown(table_md))
 
 """# Cross Validation
 
-## NO SMOTEENN
+## NO SMOTE
 
 *Doing cross validation on original dataset (no smote)*
 """
