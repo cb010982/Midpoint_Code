@@ -692,7 +692,7 @@ param_grids = {
     }
 }
 
-"""## NO SMOTEENN"""
+"""## NO SMOTE"""
 
 best_models = {}
 best_params = {}
